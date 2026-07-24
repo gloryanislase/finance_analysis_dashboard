@@ -3,7 +3,7 @@
 ## Project Overview
 A financial organization required a centralized analytical solution to monitor overall financial transactions, customer behavior, and transaction performance across different business segments. The objective of this interactive Power BI dashboard is to help stakeholders monitor KPIs in real time, identify high-performing customer segments, and track operational fees and taxes to improve financial decision-making.
 
-![Main Dashboard](Overview_Analysis.png)
+![Main Dashboard](Preview_Dashboard/Overview_Analysis.png)
 
 ## Key Financial Metrics (KPIs)
 * **Total Amount:** Displays the total transaction amount processed with a Year-over-Year (YoY) growth comparison.
@@ -21,7 +21,7 @@ A financial organization required a centralized analytical solution to monitor o
 
 ## Technical Implementation & Data Modeling
 
-![Data Model](data_model.png)
+![Data Model](Preview_Dashboard/data_model.png)
 
 * **Star Schema Design:** Architected a clean Star Schema connecting the central `finance_transactions` fact table to the `customers` and `Calendar Table` dimension tables via one-to-many relationships. This structured data model ensures efficient data retrieval and responsive dynamic filtering across the dashboard.
 * **Custom Calendar Table:** Built a dedicated, continuous Date table to establish a solid foundation for Time Intelligence logic. This step was critical to bypass standard auto-date hierarchies, enabling accurate and lightweight calculations for all YoY performance metrics.
@@ -31,4 +31,4 @@ A financial organization required a centralized analytical solution to monitor o
 * **Dynamic Filtering:** Allows users to dynamically slice data by Year, Dynamic Measure, Occupation, and Category for tailored business analysis.
 * **Drill-Down Capabilities:** Includes a detailed grid view dashboard to inspect underlying transactional records at a granular level.
 
-![Drill Down View](Transactions.png)
+![Drill Down View](Preview_Dashboard/Transactions.png)
