@@ -32,3 +32,13 @@ A financial organization required a centralized analytical solution to monitor o
 * **Drill-Down Capabilities:** Includes a detailed grid view dashboard to inspect underlying transactional records at a granular level.
 
 ![Drill Down View](Preview_Dashboard/Transactions.png)
+
+## Tools & Technologies
+* **BI Tool:** Power BI Desktop
+* **Data Processing:** Power Query
+* **Calculations:** DAX (Data Analysis Expressions)
+
+## How to Interact with the Dashboard
+1. Download the `.pbix` file from this repository.
+2. Open the file using Power BI Desktop.
+3. Use the navigation panel on the left side of the main dashboard to dynamically filter the data by Year, Dynamic Metric, Occupation, and Category.
