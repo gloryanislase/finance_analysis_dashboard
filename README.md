@@ -6,7 +6,7 @@
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
 - [Project Overview](#project-overview)
 - [Key Financial Metrics (KPIs)](#key-financial-metrics-kpis)
@@ -18,14 +18,14 @@
 
 ---
 
-## Project Overview
+## 📌 Project Overview
 This project develops an interactive Power BI dashboard to analyze financial transactions, customer behavior, and transaction performance across different business dimensions. The dashboard is designed to support interactive KPI monitoring and exploratory analysis through dynamic metrics and filters.
 
 ![Main Dashboard](Preview_Dashboard/Overview_Analysis.png)
 
 ---
 
-## Key Financial Metrics (KPIs)
+## 💰 Key Financial Metrics (KPIs)
 * **Total Amount:** Displays the total transaction amount processed with a Year-over-Year (YoY) growth comparison.
 * **Total Transactions:** Tracks the overall transaction volume and yearly changes.
 * **Average Transaction Value:** Calculates the average monetary amount per transaction.
@@ -33,7 +33,7 @@ This project develops an interactive Power BI dashboard to analyze financial tra
 
 ---
 
-## Analysis & Visualizations
+## 📈 Analysis & Visualizations
 * **Trend Analysis:** Analyzes monthly patterns based on the selected metric to observe changes in transaction activity over time.
 * **Transaction Status Analysis:** Compares the selected metric across Success, Failed, and Pending transaction statuses.
 * **Customer Segmentation:** Compares the selected metric across customer segments such as Retail, Premium, SME, Corporate, and Wealth.
@@ -43,7 +43,7 @@ This project develops an interactive Power BI dashboard to analyze financial tra
 
 ---
 
-## Technical Implementation & Data Modeling
+## 🧩 Technical Implementation & Data Modeling
 
 ![Data Model](Preview_Dashboard/data_model.png)
 
@@ -53,7 +53,7 @@ This project develops an interactive Power BI dashboard to analyze financial tra
 
 ---
 
-## Interactive Features
+## 🎛️ Interactive Features
 * **Dynamic Filtering:** Allows users to dynamically slice data by Year, Dynamic Measure, Occupation, and Category for tailored business analysis.
 * **Drill-Down Capabilities:** Includes a detailed grid view dashboard to inspect underlying transactional records at a granular level.
 
@@ -61,14 +61,14 @@ This project develops an interactive Power BI dashboard to analyze financial tra
 
 ---
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 * **BI Tool:** Power BI Desktop
 * **Data Processing:** Power Query
 * **Calculations:** DAX (Data Analysis Expressions)
 
 ---
 
-## How to Interact with the Dashboard
+## 🚀 How to Interact with the Dashboard
 1. Download the `.pbix` file from this repository.
 2. Open the file using Power BI Desktop.
 3. Use the page navigation to switch between Overview Analysis and Transaction, and use the available slicers to filter the analysis.
