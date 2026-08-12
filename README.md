@@ -5,6 +5,7 @@
 [![DAX](https://img.shields.io/badge/DAX-1F4E79?style=for-the-badge&logo=microsoftpowerbi&logoColor=white)](#)
 
 Interactive Power BI dashboard for exploring financial transaction activity, customer segments, and transaction-level data.
+
 ---
 
 ## 📑 Table of Contents
