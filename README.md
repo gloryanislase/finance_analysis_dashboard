@@ -4,7 +4,19 @@
 [![Power Query](https://img.shields.io/badge/Power%20Query-117865?style=for-the-badge&logo=powerquery&logoColor=white)](#)
 [![DAX](https://img.shields.io/badge/DAX-1F4E79?style=for-the-badge&logo=microsoftpowerbi&logoColor=white)](#)
 
---
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Key Financial Metrics (KPIs)](#key-financial-metrics-kpis)
+- [Analysis & Visualizations](#analysis--visualizations)
+- [Technical Implementation & Data Modeling](#technical-implementation--data-modeling)
+- [Interactive Features](#interactive-features)
+- [Tools & Technologies](#tools--technologies)
+- [How to Interact with the Dashboard](#how-to-interact-with-the-dashboard)
+
+---
 
 ## Project Overview
 This project develops an interactive Power BI dashboard to analyze financial transactions, customer behavior, and transaction performance across different business dimensions. The dashboard is designed to support interactive KPI monitoring and exploratory analysis through dynamic metrics and filters.
