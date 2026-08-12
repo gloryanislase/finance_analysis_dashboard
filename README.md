@@ -1,4 +1,4 @@
-# FinSight: Finance Analytics Dashboard
+# Finance Analytics Dashboard
 
 ## Project Overview
 This project develops an interactive Power BI dashboard to analyze financial transactions, customer behavior, and transaction performance across different business dimensions. The dashboard is designed to support interactive KPI monitoring and exploratory analysis through dynamic metrics and filters.
