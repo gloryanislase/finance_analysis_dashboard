@@ -4,6 +4,8 @@
 [![Power Query](https://img.shields.io/badge/Power%20Query-117865?style=for-the-badge&logo=powerquery&logoColor=white)](#)
 [![DAX](https://img.shields.io/badge/DAX-1F4E79?style=for-the-badge&logo=microsoftpowerbi&logoColor=white)](#)
 
+Interactive Power BI dashboard for exploring financial transaction activity, customer segments, and transaction-level data.
+---
 
 ## 📑 Table of Contents
 
