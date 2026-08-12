@@ -1,5 +1,9 @@
 # Finance Analytics Dashboard
 
+[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](#)
+[![Power Query](https://img.shields.io/badge/Power%20Query-117865?style=for-the-badge&logo=powerquery&logoColor=white)](#)
+[![DAX](https://img.shields.io/badge/DAX-1F4E79?style=for-the-badge&logo=microsoftpowerbi&logoColor=white)](#)
+
 ## Project Overview
 This project develops an interactive Power BI dashboard to analyze financial transactions, customer behavior, and transaction performance across different business dimensions. The dashboard is designed to support interactive KPI monitoring and exploratory analysis through dynamic metrics and filters.
 
@@ -54,3 +58,12 @@ This project develops an interactive Power BI dashboard to analyze financial tra
 1. Download the `.pbix` file from this repository.
 2. Open the file using Power BI Desktop.
 3. Use the page navigation to switch between Overview Analysis and Transaction, and use the available slicers to filter the analysis.
+
+---
+
+## 📬 Contact
+
+Open to discussion, feedback, or collaboration opportunities related to this project.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gloryanisveronicalase)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gloryanislase@gmail.com)
