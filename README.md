@@ -1,9 +1,11 @@
 # FinSight: Finance Analytics Dashboard
 
 ## Project Overview
-A financial organization required a centralized analytical solution to monitor overall financial transactions, customer behavior, and transaction performance across different business segments. The objective of this interactive Power BI dashboard is to help stakeholders monitor KPIs in real time, identify high-performing customer segments, and track operational fees and taxes to improve financial decision-making.
+This project develops an interactive Power BI dashboard to analyze financial transactions, customer behavior, and transaction performance across different business dimensions. The dashboard is designed to support interactive KPI monitoring and exploratory analysis through dynamic metrics and filters.
 
 ![Main Dashboard](Preview_Dashboard/Overview_Analysis.png)
+
+---
 
 ## Key Financial Metrics (KPIs)
 * **Total Amount:** Displays the total transaction amount processed with a Year-over-Year (YoY) growth comparison.
@@ -11,21 +13,27 @@ A financial organization required a centralized analytical solution to monitor o
 * **Average Transaction Value:** Calculates the average monetary amount per transaction.
 * **Total Fees & Taxes:** Monitors total fees collected and total tax generated from all operations.
 
-## Business Insights & Visualizations
-* **Trend Analysis:** Analyzes monthly transaction amount trends to identify seasonal spikes or drops throughout the year.
-* **Operational Efficiency:** Compares transaction amounts based on their status (Success, Failed, Pending) to measure the transaction success rate.
-* **Customer Segmentation:** Evaluates the contribution of different customer groups (Retail, Premium, SME, Corporate, Wealth) to identify the most valuable segments.
-* **Geographical Performance:** Compares state-wise transaction amounts to pinpoint top-performing regions.
-* **Transaction Type Profitability:** Uses a detailed matrix to understand performance and profitability across various categories like Loan EMI, Bill Payment, and Investment.
-* **Demographic Analysis:** Breaks down transaction amount contributions based on customer gender.
+---
+
+## Analysis & Visualizations
+* **Trend Analysis:** Analyzes monthly patterns based on the selected metric to observe changes in transaction activity over time.
+* **Transaction Status Analysis:** Compares the selected metric across Success, Failed, and Pending transaction statuses.
+* **Customer Segmentation:** Compares the selected metric across customer segments such as Retail, Premium, SME, Corporate, and Wealth.
+* **Geographical Analysis:** Compares the selected metric across states to identify differences in transaction activity by region.
+* **Transaction Type Analysis:** Compares Amount, Fees, Tax, and Transactions across different transaction types.
+* **Demographic Analysis:** Compares the selected metric across customer gender.
+
+---
 
 ## Technical Implementation & Data Modeling
 
 ![Data Model](Preview_Dashboard/data_model.png)
 
-* **Star Schema Design:** Architected a clean Star Schema connecting the central `finance_transactions` fact table to the `customers` and `Calendar Table` dimension tables via one-to-many relationships. This structured data model ensures efficient data retrieval and responsive dynamic filtering across the dashboard.
-* **Custom Calendar Table:** Built a dedicated, continuous Date table to establish a solid foundation for Time Intelligence logic. This step was critical to bypass standard auto-date hierarchies, enabling accurate and lightweight calculations for all YoY performance metrics.
-* **Data Transformation:** Cleaned and standardized the raw financial dataset in Power Query, ensuring consistent formatting for transaction statuses, categorical segments, and currency columns before loading them into the model.
+* **Star Schema Design:** Built a star-schema model with 'finance_transactions' as the central fact table and 'customers' and 'Calendar' Table as supporting dimension tables. The model supports analysis across transaction, customer, and date dimensions.
+* **Custom Calendar Table:** Created a dedicated Calendar Table to support date-based analysis and time-intelligence calculations, including Year-over-Year comparisons.
+* **Data Transformation:** Prepared the raw transaction data in Power Query by setting data types, transforming monetary fields, handling duplicate transaction IDs, trimming text values, handling missing fee values, and standardizing currency formatting.
+
+---
 
 ## Interactive Features
 * **Dynamic Filtering:** Allows users to dynamically slice data by Year, Dynamic Measure, Occupation, and Category for tailored business analysis.
@@ -33,12 +41,16 @@ A financial organization required a centralized analytical solution to monitor o
 
 ![Drill Down View](Preview_Dashboard/Transactions.png)
 
+---
+
 ## Tools & Technologies
 * **BI Tool:** Power BI Desktop
 * **Data Processing:** Power Query
 * **Calculations:** DAX (Data Analysis Expressions)
 
+---
+
 ## How to Interact with the Dashboard
 1. Download the `.pbix` file from this repository.
 2. Open the file using Power BI Desktop.
-3. Use the navigation panel on the left side of the main dashboard to dynamically filter the data by Year, Dynamic Metric, Occupation, and Category.
+3. Use the page navigation to switch between Overview Analysis and Transaction, and use the available slicers to filter the analysis.
